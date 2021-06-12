@@ -1,0 +1,62 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		
+	</head>
+	<body>
+		<form> 
+			<div>
+				<center> <h1> Employee Registration Form </h1>
+				</center>
+				<hr>
+				<label> First Name </label>
+				<input type= "text" Name="Firstname" placeholder="Firstname" size="10" required> <br><br>
+				<label> Middle Name </label>
+				<input type= "text" Name="Middlename" placeholder="Middlename" size="15" required> <br><br>
+				<label> Last Name </label>
+				<input type= "text" Name="LastName" placeholder="Lastname" size="20" required> <br><br>
+				<div>
+				<label>
+					Department:
+				</label>
+				<select>
+				<option value= "course">Department</option>
+				<option value= "BCA">MANAGEMENT</option>
+				<option value= "BBA">HUMAN RESOURCE</option>
+				<option value= "B.TECH">CUSTOMER SUPPORT</option>
+				<option value= "MBA">DEVELOPMENT</option>
+				<option value= "MCA">BUSSINESS</option>
+				<option value= "M.TECH">CORPORATE</option>
+			</select>
+			<div>
+				<label>
+					Gender:
+				</label> <br>
+				<input type="radio"	value="male" name="gender" checked>male<br>
+				<input type="radio"	value="female" name="gender">female<br>
+				<input type="radio"	value="other" name="gender">other<br>
+			</div>
+				<br>
+				<label>
+					Phone:
+				</label>
+				<input type="text" name="country code" placeholder="country code" value="+91" size="2"/>
+				<input type="tel" name="phone" size="25" pattern="[0-9] {4}-[0-9]{6}" placeholder="1234-567890" required>
+				<br>
+				<br>
+				Current address:
+				<textarea cols="80" row="5" placeholder="currentaddress" value="address" required/>
+			</textarea> <br> <br>
+			<label for ="myfile"> Drop your resume:</label>
+			<input type="file" id="myfile" name="myfile"> <br> <br>
+			<label for ="email"><h>email</h></label>
+			<input type="text" placeholder="enter email" name="email" required><br><br>
+			<label for ="psw"><h>password</h></label>
+			<input type="password" placeholder="enter pqassword" name="psw" required><br><br>
+			<label for ="psw repeat"><h>re-type password</h></label>
+			<input type="password" placeholder="re type password" name="psw repeat" required><br><br>
+			<button type="submit" class="registerbtn">register</button>
+		</form>
+	</body>			
+	</html>

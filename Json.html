@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<h2>Creating an Object Parsing JSON</h2>
+	<p id="demo"></p>
+
+<script>
+	const myJSON = '{"name":"Harry", "age":24, "car":null}';
+	const myObj = JSON.parse(myJSON);
+	document.getElementById("demo").innerHTML = myObj.name;
+</script>
+</body>
+</html>
